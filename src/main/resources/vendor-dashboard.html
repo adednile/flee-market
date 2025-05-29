@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Connect - Vendor Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Vendor Connect</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="vendor-dashboard.html" class="active">Dashboard</a>
+            <a href="#" id="logout-link">Logout</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <section class="vendor-profile">
+        <h2>Your Vendor Profile</h2>
+        <div class="profile-container">
+            <div class="profile-image">
+                <img id="vendor-image" src="assets/images/default-vendor.jpg" alt="Vendor Image">
+                <input type="file" id="image-upload" accept="image/*">
+                <button id="upload-btn" class="btn btn-small">Upload Image</button>
+            </div>
+            <div class="profile-info">
+                <form id="profile-form">
+                    <div class="form-group">
+                        <label for="vendor-name">Business Name:</label>
+                        <input type="text" id="vendor-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vendor-category">Category:</label>
+                        <select id="vendor-category" required>
+                            <option value="Food">Food</option>
+                            <option value="Clothing">Clothing</option>
+                            <option value="Services">Services</option>
+                            <option value="Electronics">Electronics</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="vendor-email">Email:</label>
+                        <input type="email" id="vendor-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vendor-phone">Phone:</label>
+                        <input type="tel" id="vendor-phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vendor-description">Description:</label>
+                        <textarea id="vendor-description" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-vendor">Update Profile</button>
+                </form>
+            </div>
+        </div>
+        <div id="profile-message" class="message"></div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 Vendor Connect. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/vendor-profile.js"></script>
+</body>
+</html>
