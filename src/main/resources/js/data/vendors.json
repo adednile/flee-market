@@ -6,7 +6,7 @@
     "email": "john@example.com",
     "phone": "555-0101",
     "description": "Fresh baked goods daily! Try our famous sourdough bread.",
-    "image": "assets/images/bakery.jpg"
+    "image": "images/cake-bakery.jpeg"
   },
   {
     "id": "vendor-2",
@@ -15,7 +15,7 @@
     "email": "jane@example.com",
     "phone": "555-0202",
     "description": "Professional tailoring and alterations for all your clothing needs.",
-    "image": "assets/images/tailor.jpg"
+    "image": "images/tailoring-services.jpeg"
   },
   {
     "id": "vendor-3",
@@ -24,7 +24,7 @@
     "email": "tech@example.com",
     "phone": "555-0303",
     "description": "The latest tech gadgets and accessories at competitive prices.",
-    "image": "assets/images/electronics.jpg"
+    "image": "images/tech-gadgets.png"
   },
   {
     "id": "vendor-4",
@@ -33,6 +33,6 @@
     "email": "coffee@example.com",
     "phone": "555-0404",
     "description": "Artisan coffee and pastries to fuel your day.",
-    "image": "assets/images/coffee.jpg"
+    "image": "images/coffee-image.jpg"
   }
 ]
