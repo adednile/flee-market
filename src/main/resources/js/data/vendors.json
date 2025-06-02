@@ -3,8 +3,8 @@
     "id": "vendor-1",
     "businessName": "John's Bakery",
     "category": "Food",
-    "email": "john@example.com",
-    "phone": "555-0101",
+    "email": "john@bake.com",
+    "phone": "+254 758 984 814",
     "description": "Fresh baked goods daily! Try our famous sourdough bread.",
     "image": "images/cake-bakery.jpeg"
   },
@@ -12,8 +12,8 @@
     "id": "vendor-2",
     "businessName": "Jane's Tailoring",
     "category": "Services",
-    "email": "jane@example.com",
-    "phone": "555-0202",
+    "email": "jane@tailor.com",
+    "phone": "+254 777 940 356",
     "description": "Professional tailoring and alterations for all your clothing needs.",
     "image": "images/tailoring-services.jpeg"
   },
@@ -21,8 +21,8 @@
     "id": "vendor-3",
     "businessName": "Tech Gadgets",
     "category": "Electronics",
-    "email": "tech@example.com",
-    "phone": "555-0303",
+    "email": "tech@gadgets.com",
+    "phone": "+254 769 422 980",
     "description": "The latest tech gadgets and accessories at competitive prices.",
     "image": "images/tech-gadgets.png"
   },
@@ -30,8 +30,8 @@
     "id": "vendor-4",
     "businessName": "Campus Coffee",
     "category": "Food",
-    "email": "coffee@example.com",
-    "phone": "555-0404",
+    "email": "coffee@campus.com",
+    "phone": "+254 712 345 678",
     "description": "Artisan coffee and pastries to fuel your day.",
     "image": "images/coffee-image.jpg"
   }

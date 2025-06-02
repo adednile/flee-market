@@ -50,12 +50,28 @@ function displayVendors(vendors) {
             <div class="vendor-info">
                 <h3>${vendor.businessName}</h3>
                 <span class="vendor-category">${vendor.category}</span>
-                <p class="vendor-description">${vendor.description || 'No description provided.'}</p>
-                <div class="vendor-contact">
-                    <a href="mailto:${vendor.email}">Email</a>
-                    <a href="tel:${vendor.phone}">Call</a>
+
+                <div class"vendor-details">
+                <div class="detail-item">
+                    <span class="detail-icon">📞</span>
+                    <span>${vendor.phone}</span>
                 </div>
+
+                <div class="detail-item">
+                    <span class="detail-icon">✉️</span>
+                    <span>${vendor.email}</span>
+                <div>
+            </div><br>
+
+
+                
+                
             </div>
+            <div>
+                <p class="vendor-description">${vendor.description || 'No description provided.'}</p>
+            </div>
+
+            
         `;
 
         vendorsContainer.appendChild(vendorCard);
