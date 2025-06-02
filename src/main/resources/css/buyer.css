@@ -124,3 +124,24 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* New Code */
+.vendor-details{
+    margin-bottom: 20px;
+}
+
+.detail-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.display-icon{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
