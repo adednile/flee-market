@@ -1,21 +1,32 @@
-# Flee Market
+# 🛍️ Flee Market
 
-Flee Market is an online marketplace application built with Java and Spring Boot. It enables vendors to list items for sale and customers to browse and purchase products easily.
+**Flee Market** is a full-stack online marketplace application developed using Java and Spring Boot. It facilitates buying and selling of items, allowing **vendors** to register and list their products, while **customers** can browse, add items to their cart, and place orders seamlessly.
 
-## Features
+## ✨ Features
 
-- Vendor registration and login
-- Item listing and browsing
-- Shopping cart and checkout
-- User profile management
+- Vendor registration, login, and shop profile management
+- Product listing, updating, and deletion by vendors
+- Product browsing and search functionality for customers
+- Customer registration and profile management
+- Shopping cart and secure checkout process
+- Order history and status tracking
+- RESTful APIs built using Spring Boot controllers
 
-## Getting Started
+## 🧠 Code Highlights
+
+- `UserController.java`: Handles registration, login, and user-related API endpoints.
+- `ProductController.java`: Manages product listing, updates, and deletions.
+- `OrderService.java`: Contains business logic for processing customer orders.
+- `VendorRepository.java`: Interfaces with the database for vendor-related queries.
+- `Customer.java` and `Vendor.java`: Represent the user roles in the system and extend a base `User` entity.
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
 - Java 11 or higher
 - Maven (or Gradle)
-- MySQL (or your preferred database)
+- MySQL or PostgreSQL (update credentials in `application.properties`)
 
 ### Running the Application
 
@@ -24,7 +35,19 @@ Flee Market is an online marketplace application built with Java and Spring Boot
    ```bash
    git clone https://github.com/adednile/flee-market.git
    cd flee-market
-   ./mvnw spring-boot:run
-   ---
+   ```
 
-You can just create a file named `README.md` in the root of your repo, paste this content in, then commit and push! Want me to guide you through the commit commands?
+2. Configure your database connection in `src/main/resources/application.properties`.
+
+3. Build and run the application:
+
+   ```bash
+   ./mvnw spring-boot:run
+   ```
+
+4. Access the application at:
+   - `http://localhost:8080`
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
